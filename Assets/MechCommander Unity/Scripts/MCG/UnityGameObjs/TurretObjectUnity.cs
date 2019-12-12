@@ -64,14 +64,16 @@ namespace MechCommanderUnity.MCG
             if (!isSetup && baseObject != null)
             {
                 this.InitObject();
-                
-                ActualGVState = ((GVAppearance) baseObject.appearance).ActualState;
 
-                if (ActualGVState.numRotations > 1)
+                if (isSetup)
                 {
-                    StartCoroutine(TurretRotateRandom(ActualGVState.numRotations-1));
+                    ActualGVState = ((GVAppearance) baseObject.appearance).ActualState;
+
+                    if (ActualGVState.numRotations > 1)
+                    {
+                        StartCoroutine(TurretRotateRandom(ActualGVState.numRotations-1));
+                    }
                 }
-                
             }
         }
 
