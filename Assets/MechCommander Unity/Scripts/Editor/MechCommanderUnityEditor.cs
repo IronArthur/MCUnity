@@ -53,10 +53,11 @@ namespace MechCommanderUnity
 
             // Browse for MCG path
             EditorGUILayout.Space();
-            EditorGUILayout.LabelField("MCG Path", GUILayout.Width(EditorGUIUtility.labelWidth - 4));
+            EditorGUILayout.LabelField("MCG Path", GUILayout.Width(EditorGUIUtility.labelWidth));
+            EditorGUILayout.SelectableLabel(mcgUnity.MCGRemotePath, EditorStyles.textField, GUILayout.Height(EditorGUIUtility.singleLineHeight));
+            EditorGUILayout.Space();
             GUILayoutHelper.Horizontal(() =>
             {
-                EditorGUILayout.SelectableLabel(mcgUnity.MCGPath, EditorStyles.textField, GUILayout.Height(EditorGUIUtility.singleLineHeight));
                 if (GUILayout.Button("Browse..."))
                 {
                     string path = EditorUtility.OpenFilePanel("Locate MCG exe file", "", "exe");

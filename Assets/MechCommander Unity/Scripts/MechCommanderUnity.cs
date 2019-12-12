@@ -34,6 +34,8 @@ namespace MechCommanderUnity
         public Mission MissionComponent;
         
         public string MCGRemotePath;
+        
+        [NonSerialized]
         public string MCGPath = "MCG_DATA";
         
         public int ModelImporter_ModelID = 0;
@@ -110,6 +112,7 @@ namespace MechCommanderUnity
 
         void Awake()
         {
+            MCGPath = "MCG_DATA";
             SetupSingleton();
             SetupMCGPath();
             //SetupContentReaders();
@@ -413,15 +416,20 @@ namespace MechCommanderUnity
             {
                 isReady = true;
                 isPathValidated = true;
-                //LogMessage("MCG path validated.", true);
-                //System.IO.File.Delete("cache/ObjDictionary.xml");
 
-                //SetupMCGPath();
                 SetupContentReaders();
                 SetupMapList();
 
                 return;
-            } else
+            } else if (ValidateRemoteMCGPath(MCGRemotePath))
+            {
+                //Remote OK Local Empty
+                CopyMCGAssetsToLocal();
+                
+                
+            }
+            
+            /*else
             {
                 // Look for mcg folder in Application.dataPath at runtime
                 if (Application.isPlaying)
@@ -446,7 +454,7 @@ namespace MechCommanderUnity
                         }
                     }
                 }
-            }
+            }*/
 
             // No path was found but we can try to carry on without one
             isReady = false;
