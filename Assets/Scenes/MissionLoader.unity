@@ -1,0 +1,1220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 0
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &293306360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 293306362}
+  - component: {fileID: 293306361}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &293306361
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293306360}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &293306362
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293306360}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &418130258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 418130260}
+  - component: {fileID: 418130259}
+  m_Layer: 0
+  m_Name: Mission
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &418130259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418130258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4c97dab76b7c049817072cc0a2aab0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadTerrainObjects: 1
+  LoadBuildingObjects: 1
+  LoadTurretsObjects: 1
+  MissionName: MIS0403
+  loadType: 0
+  ObjectManager: {fileID: 1762189335}
+  numObjectives: 0
+  m_timeLimit: 0
+  duration: 0
+  warning1: 0
+  warning2: 0
+  actualTime: 0
+  runningTime: 0
+  numSmallStrikes: 0
+  numLargeStrikes: 0
+  numSensorStrikes: 0
+  numCameraStrikes: 0
+  missionTuneNum: 0
+  missionScriptHandle: 0
+  dropZone: {x: 0, y: 0}
+  theSkyNumber: 0
+--- !u!4 &418130260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418130258}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1067652088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1067652093}
+  - component: {fileID: 1067652092}
+  - component: {fileID: 1067652090}
+  - component: {fileID: 1067652089}
+  - component: {fileID: 1067652091}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1067652089
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067652088}
+  m_Enabled: 1
+--- !u!124 &1067652090
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067652088}
+  m_Enabled: 1
+--- !u!114 &1067652091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067652088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3723e26f6ab6d4845b9d502aa669ff80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!20 &1067652092
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067652088}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1067652093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067652088}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1235828444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1235828445}
+  - component: {fileID: 1235828446}
+  m_Layer: 0
+  m_Name: SpriteManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1235828445
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235828444}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1250870145}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1235828446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235828444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b72ce20351a40a44080896adef30b394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CoroutineIsWorking: 0
+  LimitQueueProcesing: 1
+  QueueProcessTime: 0.4
+  TaskPending: 0
+--- !u!1 &1250870143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1250870145}
+  - component: {fileID: 1250870144}
+  m_Layer: 0
+  m_Name: MechCommanderUnity
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1250870144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250870143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0f46864a8fe484498a34f7b1e40bfb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MissionComponent: {fileID: 418130259}
+  MCGRemotePath: C:\Users\Oscar\Downloads\1\MCX Original\Nueva carpeta
+  MCGPath: 
+  ModelImporter_ModelID: 0
+  Map_ModelIndex: 17
+  MapName: MIS0403
+  PreviewHasChanged: 0
+  ListMaps:
+  - 2PLAYER1
+  - 2PLAYER2
+  - 3PLAYER1
+  - 3PLAYER2
+  - 3PLAYER3
+  - 5PLAYER1
+  - 5PLAYER2
+  - 5PLAYER3
+  - 5PLAYER4
+  - 5PLAYER5
+  - 6PLAYER1
+  - 6PLAYER2
+  - 6PLAYER3
+  - 6PLAYER4
+  - 6PLAYER5
+  - 6PLAYER6
+  - ACEHUNT
+  - ACHILLES
+  - BAKWOODS
+  - CALDERA
+  - CAMPAIGN
+  - CAMPAIGNACEHUNT
+  - CAMPAIGNPAREDUX
+  - CAMPAIGNTHEGUNS
+  - CAPTISLD
+  - CLANPUR
+  - DVALLEY
+  - E3_0101
+  - E3_0101A
+  - E3_0203
+  - EDITSCEN
+  - GAMESYS
+  - HVRDMMT
+  - ISPUR
+  - KINGISLE
+  - MCX0101
+  - MCX0102
+  - MCX0103
+  - MCX0104
+  - MCX0201
+  - MCX0202
+  - MCX0203
+  - MCX0204
+  - MCX0301
+  - MCX0302
+  - MCX0303
+  - MCX0304
+  - MCXS0401
+  - MCXS0402
+  - MECHCMDR1
+  - MECHINT
+  - MIS0101
+  - MIS0101C
+  - MIS0101N
+  - MIS0101S
+  - MIS0102
+  - MIS0103
+  - MIS0104
+  - MIS0105
+  - MIS0106
+  - MIS0201
+  - MIS0202
+  - MIS0203
+  - MIS0204
+  - MIS0205
+  - MIS0206
+  - MIS0301
+  - MIS0302
+  - MIS0303
+  - MIS0304
+  - MIS0305
+  - MIS0306
+  - MIS0401
+  - MIS0402
+  - MIS0403
+  - MIS0403C
+  - MIS0403C1_3P
+  - MIS0403C1_5P
+  - MIS0403C2_3P
+  - MIS0403C2_5P
+  - MIS0403C3_5P
+  - MIS0403C4_5P
+  - MIS0403C_2P
+  - MIS0403MP
+  - MIS0403S
+  - MIS0403S_2P
+  - MIS0403S_3P
+  - MIS0403S_5P
+  - MIS0404
+  - MIS0405
+  - MIS0406
+  - MIS0501
+  - MIS0502
+  - MIS0503
+  - MIS0504
+  - MIS0505
+  - MIS0506
+  - MIS0507
+  - MIS0801
+  - MISE303
+  - MOUSETRP
+  - MP0304
+  - MP0701
+  - MP0702
+  - MP0703
+  - MP0705
+  - MP0706
+  - MP0707
+  - MP0708
+  - MP0709
+  - MP0712
+  - MP0714
+  - MP0715
+  - MP0716
+  - MP0718
+  - MP0719
+  - MP0720
+  - MP0721
+  - MP0722
+  - MP0723
+  - MP0725
+  - MP0726
+  - MP0727
+  - MP0728
+  - MP0729
+  - MP0730
+  - MP0731
+  - MPMECH
+  - MXM0502
+  - NETPUR
+  - PAREDUX
+  - PURCHASE
+  - PURCHASE00
+  - PURCHASE01
+  - PURCHASE02
+  - PURCHASE03
+  - PURCHASE04
+  - PURCHASE05
+  - PURCHASE06
+  - PURCHASE07
+  - PURCHASE08
+  - PURCHASE09
+  - PURCHASE10
+  - PURCHASE11
+  - PURCHASE12
+  - PURCHASE13
+  - PURCHASE14
+  - PURCHASE15
+  - PURCHASE16
+  - PURCHASE17
+  - PURCHASE18
+  - PURCHASE19
+  - PURCHASE20
+  - PURCHASE21
+  - PURCHASE22
+  - PURCHASE23
+  - PURCHASE24
+  - PURCHASE25
+  - PURCHASE26
+  - PURCHASE27
+  - PURCHASE28
+  - PURCHASE29
+  - SOLOISPURCHASE
+  - SOLOPURCHASE
+  - TESTMIS1
+  - THEGUNS
+  - URBANA
+  - WETNWILD
+  - XMECHCMDR1
+  - XPUR
+  - XPURCHASE00
+  - XPURCHASE01
+  - XPURCHASE02
+  - XPURCHASE03
+  - XPURCHASE04
+  - XPURCHASE05
+  - XPURCHASE06
+  - XPURCHASE07
+  - XPURCHASE08
+  - XPURCHASE09
+  - XPURCHASE10
+  - XPURCHASE11
+  - PCREWA
+  - PCREWB
+  - PCREWC
+  - PCREWD
+  - PCREWE
+  - PMW00001
+  - PMW00002
+  - PMW00003
+  - PMW00004
+  - PMW00005
+  - PMW00006
+  - PMW00007
+  - PMW00008
+  - PMW00009
+  - PMW00010
+  - PMW00011
+  - PMW00012
+  - PMW00013
+  - PMW00014
+  - PMW00015
+  - PMW00016
+  - PMW00017
+  - PMW00018
+  - PMW00019
+  - PMW00020
+  - PMW00022
+  - PMW00023
+  - PMW00024
+  - PMW00025
+  - PMW00026
+  - PMW00027
+  - PMW00028
+  - PMW00029
+  - PMW00030
+  - PMW00031
+  - PMW00032
+  - PMW00033
+  - PMW00034
+  - PMW00035
+  - PMW00051
+  - PMW00052
+  - PMW00053
+  - PMW00054
+  - PMW00055
+  - PMW00056
+  - PMW00057
+  - PMW00058
+  - PMW00059
+  - PMW00060
+  - PMW00061
+  - PMW00062
+  - PMW00063
+  - PMW00064
+  - PMW00065
+  - PMW00066
+  - PMW00067
+  - PMW00068
+  - PMW00069
+  - PMW00070
+  - PMW00071
+  - PMW00072
+  - PMW00073
+  - PMW00074
+  - PMW00075
+  - PMW00076
+  - PMW00077
+  - PMW00078
+  - PMW00079
+  - PMW00080
+  - PMW00081
+  - PMW00082
+  - PMW00083
+  - PMW00084
+  - PMW00085
+  - PMW00086
+  - PMW00087
+  - PMW00088
+  - PMW00089
+  - PMW00090
+  - PMW00091
+  - PMW00092
+  - PMW00093
+  - PMW00094
+  - PMW00095
+  - PMW00096
+  - PMW00097
+  - PMW00100
+  - PMW00102
+  - PMW00103
+  - PMW00104
+  - PMW00105
+  - PMW00106
+  - PMW00107
+  - PMW00108
+  - PMW00109
+  - PMW00110
+  - PMW00111
+  - PMW00112
+  - PMW00113
+  - PMW00114
+  - PMW00115
+  - PMW00116
+  - PMW00117
+  - PMW00118
+  - PMW00120
+  - PMW00121
+  - PMW00122
+  - PMW00123
+  - PMW00125
+  - PMW00126
+  - PMW00127
+  - PMW00128
+  - PMW00130
+  - PMW00131
+  - PMW00132
+  - PMW00133
+  - PMW00135
+  - PMW00136
+  - PMW00137
+  - PMW00138
+  - PMW00139
+  - PMW00140
+  - PMW00141
+  - PMW00142
+  - PMW00143
+  - PMW00150
+  - PMW00151
+  - PMW00152
+  - PMW00153
+  - PMW00154
+  - PMW00155
+  - PMW00156
+  - PMW00157
+  - PMW00160
+  - PMW00161
+  - PMW00162
+  - PMW00163
+  - PMW00164
+  - PMW00165
+  - PMW00166
+  - PMW00170
+  - PMW00171
+  - PMW00172
+  - PMW00173
+  - PMW00174
+  - PMW00175
+  - PMW00176
+  - PMW00180
+  - PMW00181
+  - PMW00182
+  - PMW00183
+  - PMW00184
+  - PMW00185
+  - PMW00186
+  - PMW00190
+  - PMW00191
+  - PMW00192
+  - PMW00193
+  - PMW00194
+  - PMW00195
+  - PMW00196
+  - PMW00200
+  - PMW00201
+  - PMW00202
+  - PMW00203
+  - PMW00204
+  - PMW00205
+  - PMW00206
+  - PMW00300
+  - PMW00301
+  - PMW00302
+  - PMW00303
+  - PMW00304
+  - PMW00305
+  - PMW00306
+  - PMW00307
+  - PMW00308
+  - PMW00309
+  - PMW00310
+  - PMW00311
+  - PMW00312
+  - PMW00313
+  - PMW00314
+  - PMW00315
+  - PMW00316
+  - PMW00317
+  - PMW00318
+  - PMW00319
+  - PMW00320
+  - PMW00321
+  - PMW00322
+  - PMW00323
+  - PMW00324
+  - PMW00325
+  - PMW00326
+  - PMW00327
+  - PMW00328
+  - PMW00329
+  - PMW00330
+  - PMW00331
+  - PMW00332
+  - PMW00333
+  - PMW00334
+  - PMW00335
+  - PMW00336
+  - PMW00337
+  - PMW00338
+  - PMW00339
+  - PMW00340
+  - PMW00341
+  - PMW00342
+  - PMW00343
+  - PMW00344
+  - PMW00345
+  - PMW00346
+  - PMW00347
+  - PMW00348
+  - PMW00349
+  - PMW00350
+  - PMW00351
+  - PMW00352
+  - PMW00353
+  - PMW00354
+  - PMW00355
+  - PMW00356
+  - PMW00357
+  - PMW00358
+  - PMW00359
+  - PMW00360
+  - PMW00361
+  - PMW00362
+  - PMW00363
+  - PMW00364
+  - PMW00365
+  - PMW00366
+  - PMW00367
+  - PMW00368
+  - PMW00369
+  - PMW00370
+  - PMW00371
+  - PMW00372
+  - PMW00373
+  - PMW00374
+  - PMW00375
+  - PMW00376
+  - PMW00377
+  - PMW00378
+  - PMW00379
+  - PMW00380
+  - PMW00381
+  - PMW00382
+  - PMW00383
+  - PMW00384
+  - PMW00385
+  - PMW00386
+  - PMW00387
+  - PMW00388
+  - PMW00389
+  - PMW00390
+  - PMW00391
+  - PMW00392
+  - PMW00393
+  - PMW00394
+  - PMW00395
+  - PMW00396
+  - PMW00397
+  - PMW00398
+  - PMW00399
+  - PMW00400
+  - PMW00401
+  - PMW00402
+  - PMW00403
+  - PMW00404
+  - PMW00405
+  - PMW00406
+  - PMW00407
+  - PMW00408
+  - PMW00409
+  - PMW00410
+  - PMW00411
+  - PMW00412
+  - PMW00413
+  - PMW00414
+  - PMW00415
+  - PMW00416
+  - PMW00417
+  - PMW00418
+  - PMW00419
+  - PMW00420
+  - PMW00421
+  - PMW00422
+  - PMW00423
+  - PMW00424
+  - PMW00425
+  - PMW00426
+  - PMW00427
+  - PMW00428
+  - PMW00429
+  - PMW00430
+  - PMW00431
+  - PMW00432
+  - PMW00433
+  - PMW00434
+  - PMW00435
+  - PMW00436
+  - PMW00437
+  - PMW00438
+  - PMW00439
+  - PMW00440
+  - PMW00441
+  - PMW00442
+  - PMW00443
+  - PMW00444
+  - PMW00445
+  - PMW00446
+  - PMW00447
+  - PMW00448
+  - PMW00449
+  - PMW00450
+  - PMW00451
+  - PMW00452
+  - PMW00453
+  - PMW00454
+  - PMW00455
+  - PMW00456
+  - PMW00457
+  - PMW00458
+  - PMW00459
+  - PMW01000
+  - WAR001
+  - WAR002
+  - WAR002A
+  - WAR003
+  - WAR003A
+  - WAR004
+  - WAR005
+  - WAR006
+  - WAR007
+  - WAR008
+  - WAR009
+  - WAR010
+  - WAR011
+  - ENGINE
+  - PE000001
+  - PE000003
+  - PEM00001
+  - PM100100
+  - PM100300
+  - PM100400
+  - PM101100
+  - PM101300
+  - PM101400
+  - PM102100
+  - PM102300
+  - PM102400
+  - PM103100
+  - PM103300
+  - PM103400
+  - PM104100
+  - PM104300
+  - PM104400
+  - PM105100
+  - PM105300
+  - PM105400
+  - PM106100
+  - PM106300
+  - PM106400
+  - PM107100
+  - PM107300
+  - PM107400
+  - PM108100
+  - PM108101
+  - PM108300
+  - PM108400
+  - PM109100
+  - PM109150
+  - PM109300
+  - PM109400
+  - PM110100
+  - PM110300
+  - PM110400
+  - PM111100
+  - PM111300
+  - PM111400
+  - PM112100
+  - PM112300
+  - PM112400
+  - PM200100
+  - PM200150
+  - PM200160
+  - PM200170
+  - PM200300
+  - PM200400
+  - PM201100
+  - PM201300
+  - PM201350
+  - PM201400
+  - PM203100
+  - PM203300
+  - PM203400
+  - PM204100
+  - PM204101
+  - PM204300
+  - PM204350
+  - PM204400
+  - PM205100
+  - PM205300
+  - PM205400
+  - PM206100
+  - PM206300
+  - PM206400
+  - PM206401
+  - PM207100
+  - PM207300
+  - PM207350
+  - PM207360
+  - PM207400
+  - PM208100
+  - PM208150
+  - PM208300
+  - PM208350
+  - PM208400
+  - PM209100
+  - PM209150
+  - PM209300
+  - PM209400
+  - PM209450
+  - PM210100
+  - PM210300
+  - PM210400
+  - PM211100
+  - PM211300
+  - PM211350
+  - PM211400
+  - PM211450
+  - PV20000
+  - PV20100
+  - PV20200
+  - PV20300
+  - PV20400
+  - PV20500
+  - PV20600
+  - PV20650
+  - PV20800
+  - PV20900
+  - PV21000
+  - PV21100
+  - PV21150
+  - PV21200
+  - PV21300
+  - PV21400
+  - PV21500
+  - PV21600
+  - PV21700
+  - PV21800
+  - PV21900
+  - PV22000
+  - PV22100
+  - PV22200
+  - PV22400
+  - PV22700
+  - PV22701
+  - PV22800
+  - PV22900
+  - PV30400
+  - PV30500
+  - PV30501
+  - PV30600
+  - PV30601
+  - PV30700
+  - PV30800
+  - PV30900
+  - PV31000
+  - PV31100
+  - PV31200
+  - PV31300
+  - PV31400
+  - PV31500
+  - PV31600
+  - PV31700
+  - PV31800
+  - PV31900
+  - PV32000
+  - PV32100
+  - PV32200
+  - PV32300
+  - PV32400
+  - PV33300
+  - PV33400
+  - PV33500
+  - PV33600
+  - PV33700
+  - PV33800
+  - TRAINFIV
+  - TRAINFOR
+  - TRAINONE
+  - TRAINSIX
+  - TRAINTHR
+  - TRAINTWO
+--- !u!4 &1250870145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250870143}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1235828445}
+  - {fileID: 1762189336}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1762189334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1762189336}
+  - component: {fileID: 1762189335}
+  m_Layer: 0
+  m_Name: GameObjectManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1762189335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762189334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7026bc2378b5ac409f20ffcf2bb19e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TerrainObjectPrefab: {fileID: 1714045716382320, guid: 341d24d67c8d4784b90a2f728147715c,
+    type: 3}
+  BuildingObjectPrefab: {fileID: 1714045716382320, guid: b3c9d38666f93764dbc789ecdd6f0d2e,
+    type: 3}
+  TurretObjectPrefab: {fileID: 1714045716382320, guid: bf60845599a46054dbe65f054a989ec2,
+    type: 3}
+  GateObjectPrefab: {fileID: 1714045716382320, guid: 74a20d1edbe3e9e429293bb2dbbeef5b,
+    type: 3}
+  test: []
+  terrainObjects: []
+  buildings: []
+  turrets: []
+--- !u!4 &1762189336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762189334}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1250870145}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

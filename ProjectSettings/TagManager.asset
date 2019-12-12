@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Entities
+  - MAP
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Unit
+  - Terrain
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Terrain
+    uniqueID: 804119497
+    locked: 0
+  - name: Overlays
+    uniqueID: 3435246551
+    locked: 0
+  - name: ObjsFloor
+    uniqueID: 205670847
+    locked: 0
+  - name: Objs
+    uniqueID: 1770906323
+    locked: 0
+  - name: Units
+    uniqueID: 2093562649
+    locked: 0
